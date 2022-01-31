@@ -19,7 +19,7 @@ def run():
     print(name)
 
     # replace() -> Return a copy with all occurrences of substring old replaced by new.
-    name = name.replace('o', 'u')
+    name = name.replace("o", "u")
     print(name)
 
     # indexes[0] -> We can access to the characters of my string and play with them

@@ -21,7 +21,7 @@ def calculate_currency_exchange(type_of_coin_selected: int, amount: float) -> fl
         result = amount / 3956.44
         result = round(result, 2)
     else:
-        raise("Your selected option is not valid")
+        raise ("Your selected option is not valid")
 
     return result
 
@@ -45,10 +45,10 @@ def run():
     print(currency_converter_menu)
     type_of_coin_selected: int = int(input("Type your selected option: "))
     amount: float = float(input("Amount of money to convert: "))
-    result = calculate_currency_exchange(type_of_coin_selected=type_of_coin_selected,
-                                         amount=amount
-                                         )
-    print('You have: ' + '$'+str(result) + ' Dollars')
+    result = calculate_currency_exchange(
+        type_of_coin_selected=type_of_coin_selected, amount=amount
+    )
+    print("You have: " + "$" + str(result) + " Dollars")
 
 
 if __name__ == "__main__":

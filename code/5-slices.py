@@ -2,7 +2,7 @@ def run():
     # Slices's structures
     # random_string[initial character : final character : steps]
 
-    name:  str = 'Francisco'
+    name: str = "Francisco"
 
     # Ways to extract with slices from start to finish
 
